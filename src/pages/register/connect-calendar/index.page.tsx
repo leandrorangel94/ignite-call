@@ -1,12 +1,12 @@
 import { Button, Heading, MultiStep, Text } from '@ignite-ui/react'
 import { Container, Header } from '../styles'
 import { ArrowRight } from 'phosphor-react'
-import { signIn, useSession } from 'next-auth/react'
+import { signIn } from 'next-auth/react'
 import { ConnectBox, ConnectItem } from './styles'
 // import { api } from '@/src/lib/axios'
 
 export default function Register() {
-  const session = useSession()
+  // const session = useSession()
   // async function handleRegister(data: RegisterFormData) {}
 
   return (

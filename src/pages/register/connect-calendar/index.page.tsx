@@ -6,7 +6,7 @@ import { AuthError, ConnectBox, ConnectItem } from './styles'
 import { useRouter } from 'next/router'
 // import { api } from '@/src/lib/axios'
 
-export default function Register() {
+export default function ConnectCalendar() {
   const session = useSession()
   const router = useRouter()
 
